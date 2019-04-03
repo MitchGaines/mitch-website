@@ -16,6 +16,10 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 
+app.get('/humedales', function(req, res) {
+    res.redirect("http://google.com");
+});
+
 app.post('/email', function(req, res) {
     let name = req.body.name;
     let from_email = req.body.email;
