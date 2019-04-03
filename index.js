@@ -17,7 +17,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/humedales', function(req, res) {
-    res.redirect("http://google.com");
+    res.redirect('https://www.google.com');
 });
 
 app.post('/email', function(req, res) {
