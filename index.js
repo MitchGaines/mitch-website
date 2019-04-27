@@ -17,7 +17,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/humedales', function(req, res) {
-    res.redirect('https://www.google.com');
+    res.redirect('http://plantasdebenjaminaceval.wpi.edu');
 });
 
 app.post('/email', function(req, res) {
